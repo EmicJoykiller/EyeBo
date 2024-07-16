@@ -3,7 +3,7 @@
   --secondary-color: #0f0147;
   --accent-color: #03a1fe;
   --background-color: #ffffff;
-  --font-family: "Montserrat", sans-serif;
+  --font-family: "Montserrat", Mont;
   --text-color: #0f0147;
   --header-background-color: #bfdbda;
 }
@@ -12,6 +12,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", Mont;
 }
 
 header {
