@@ -18,9 +18,7 @@
 header {
   position: sticky;
   top: 0;
-  background-color: var(--header-background-color);
-  padding: 1rem;
-  border-bottom: 2px solid var(--secondary-color);
+  background-color: var(--primary-color);
 }
 
 nav {
@@ -28,15 +26,17 @@ nav {
   justify-content: space-between;
   align-items: center;
   border: none;
+  background-color: var(--primary-color);
 }
 
 .nav-left {
   display: flex;
   align-items: center;
+  justify-content: end;
 }
 
 .logo-image {
-  width: 60px;
+  width: 90px;
   border-radius: 10px;
   height: auto;
   margin-right: 10px;
@@ -53,16 +53,11 @@ nav {
   display: flex;
   gap: 2rem;
   align-items: center;
+  margin-right: 20px;
 }
 
 .nav-links li a {
-  color: var(--text-color);
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.nav-links li a {
-  color: var(--text-color);
+  color: var(--background-color);
   text-decoration: none;
   font-weight: bold;
 }
