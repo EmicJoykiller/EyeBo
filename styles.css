@@ -76,9 +76,22 @@ section h1 {
   text-align: center;
 }
 
-#form {
+.contact-links a {
+  text-decoration: none;
+  color: #ffffff;
   display: flex;
-  justify-content: left;
+  justify-content: center;
+  margin: 5px;
+}
+.contact-links {
+  color: #ffffff;
+  margin: 5px;
+  padding: 5px;
+}
+
+.contact-links a:hover {
+  font-weight: bolder;
+  color: #03a1fe;
 }
 
 .about-pic {
