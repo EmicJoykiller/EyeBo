@@ -194,7 +194,7 @@ form button:hover {
 
 .box {
   padding: 10px;
-  margin: 30px;
+  margin: auto;
   border-radius: 30px;
   border: #bfdbda 15px solid;
   max-width: 100%;
