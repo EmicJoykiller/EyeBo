@@ -13,6 +13,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", Mont;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -131,7 +132,7 @@ form {
 
 form label {
   align-self: flex-start;
-  color: var(--secondary-color);
+  color: var(--background-color);
 }
 
 form input,
@@ -172,8 +173,45 @@ form button:hover {
 
 #about {
   text-align: center;
+  background-image: url(AdobeStock_714690603.jpeg);
+  background-repeat: no-repeat;
+
+  font-weight: bolder;
+  color: #ffffff;
 }
 
 #about p {
   font-weight: bolder;
+}
+
+.container {
+  display: flex;
+
+  justify-content: space-between;
+  max-width: 100%;
+  height: auto;
+}
+
+.box {
+  padding: 10px;
+  margin: 30px;
+  border-radius: 30px;
+  border: #bfdbda 15px solid;
+  max-width: 100%;
+  height: auto;
+}
+
+.ceo {
+  width: 600px;
+  height: 600px;
+  border-radius: 30px;
+}
+
+.logo-footer {
+  width: 70px;
+}
+
+#contact {
+  background-image: url(iStock-1627833870.jpg);
+  background-size: cover;
 }
