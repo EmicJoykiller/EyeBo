@@ -196,19 +196,25 @@ form button:hover {
   padding: 10px;
   margin: auto;
   border-radius: 30px;
-  border: #bfdbda 15px solid;
+
   max-width: 100%;
   height: auto;
 }
 
 .ceo {
-  width: 600px;
-  height: 600px;
+  display: block;
+  margin: 1rem auto;
+  max-width: 100%;
+  height: auto;
   border-radius: 30px;
+  border: #bfdbda 15px solid;
 }
 
 .logo-footer {
   width: 70px;
+
+  position: absolute;
+  left: 0;
 }
 
 #contact {
