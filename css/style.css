@@ -111,7 +111,7 @@ h6 {
 
 #nav .navbar-brand img {
   position: absolute;
-  max-height: 60px;
+  max-height: 80px;
   margin-top: -40px;
   transition: all 0.5s;
 }
@@ -408,7 +408,7 @@ h6 {
 .call-to-action {
   position: relative;
   padding: 90px 0;
-  background: #4f84c4;
+  background: rgb(128, 98, 194);
 }
 
 .call-to-action .container {
