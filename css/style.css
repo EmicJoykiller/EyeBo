@@ -959,10 +959,11 @@ h6 {
 .contact .container .col-md-6 {
   padding: 0;
   background: #ffffff;
+  margin: auto;
 }
 
 .contact .form {
-  background: #ffffff;
+  background: var(--background-color);
   padding: 30px;
   color: #353535;
 }
@@ -1008,11 +1009,13 @@ h6 {
 .footer {
   position: relative;
   padding: 0 0 30px 0;
-  background: #000000;
+  background: var(--secondary-color);
+  color: var(--background-color);
+  text-decoration: none;
 }
 
 .footer .footer-top {
-  background: #222222;
+  background: var(--primary-color);
   padding: 60px 0 30px 0;
 }
 
