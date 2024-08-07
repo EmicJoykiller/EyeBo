@@ -753,17 +753,25 @@ h6 {
   position: relative;
   padding: 90px 0;
   background: #ffffff;
+  display: block;
+  text-align: center;
+  
+  
 }
 
 .team .team-item {
   margin-bottom: 30px;
   overflow: hidden;
+  
 }
 
 .team .team-item .team-img {
   position: relative;
   background: #000000;
   overflow: hidden;
+  
+  
+  
 }
 
 .team .team-item .team-social {
@@ -1149,9 +1157,3 @@ h6 {
 }
 
 
-#hlogo{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
