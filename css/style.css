@@ -216,6 +216,8 @@ h6 {
   text-transform: capitalize;
 }
 
+
+
 .header .carousel-content p {
   color: #353535;
   font-size: 22px;
@@ -258,7 +260,7 @@ h6 {
 }
 
 .section-header h2 {
-  color: #666666;
+  color: #03a1fe;
   font-size: 35px;
   font-weight: 700;
   text-transform: uppercase;
@@ -448,22 +450,30 @@ h6 {
 /************* Pricing CSS ************/
 /**************************************/
 .pricing {
-  background: #f2f2f2;
+  background: #0f0147;
   padding: 90px 0 60px 0;
+  border-radius: 15px;
 }
 
 .pricing .price-content {
   position: relative;
-  background: #ffffff;
+  background: rgb(55, 65, 73);
   text-align: center;
   margin-bottom: 30px;
+ color: #ffffff;
+  font-weight: lighter;
+  border-radius: 15px;
+  
 }
 
 .pricing .price-plan {
   display: block;
-  background: #353535;
+  background: rgb(55, 65, 73);
   margin: 0 0 30px;
   padding: 20px 0;
+  border-radius: 15px;
+  
+  
 }
 
 .pricing .price-plan i {
@@ -474,7 +484,7 @@ h6 {
 
 .pricing .price-title {
   display: block;
-  color: #ffffff;
+  color: #0075f2;
   font-size: 30px;
   letter-spacing: 2px;
   margin-bottom: 10px;
@@ -482,8 +492,7 @@ h6 {
 
 .pricing .price-amount {
   position: relative;
-  font-family: "Arial, Helvetica", sans-serif;
-  color: #ffffff;
+  color: #0075f2;
   font-size: 60px;
   font-weight: 900;
   margin: 0;
@@ -491,7 +500,7 @@ h6 {
 }
 
 .pricing .price-amount span {
-  color: #ffffff;
+  
   font-size: 22px;
   font-weight: 400;
   text-transform: lowercase;
@@ -504,7 +513,7 @@ h6 {
 }
 
 .pricing .price-date {
-  color: #ffffff;
+  
   font-size: 12px;
   margin-top: 5px;
   text-transform: uppercase;
@@ -522,7 +531,7 @@ h6 {
 }
 
 .pricing .price-details li i.ion-md-checkmark {
-  color: #4f84c4;
+  
   margin-right: 8px;
 }
 
@@ -542,8 +551,10 @@ h6 {
 .pricing .price-btn {
   margin-top: 10px;
   margin-bottom: 30px;
-  background: #353535;
-  color: #ffffff;
+  background: #03a1fe;
+  color: #000000;
+  font-weight: bold;
+  border-radius: 13px;
 }
 
 .pricing .price-btn:hover {
@@ -863,6 +874,21 @@ h6 {
   padding: 30px 15px;
   text-align: center;
   background: #ffffff;
+}
+
+.popular{
+  background-color: #03a1fe;
+  margin-bottom: -15px;
+  padding: 5px;
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 12px;
+}
+.popular h5{
+  font-size: small;
+  font-weight: bolder;
+  color: #000000;
 }
 
 .testimonials .testimonial-text h3 {
